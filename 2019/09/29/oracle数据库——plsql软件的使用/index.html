@@ -63,7 +63,7 @@
 <meta property="og:site_name" content="温故 &amp; 知新">
 <meta property="og:description" content="前言plsql是一个只能连接oracle数据库的软件tnsnames.ora配置tnsnames.ora 文件中定义一个或多个网络服务，用来配置你连的IP、端口、数据库实例等信息">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-28T16:27:10.363Z">
+<meta property="og:updated_time" content="2019-09-28T16:55:01.083Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="oracle数据库——plsql软件的使用">
 <meta name="twitter:description" content="前言plsql是一个只能连接oracle数据库的软件tnsnames.ora配置tnsnames.ora 文件中定义一个或多个网络服务，用来配置你连的IP、端口、数据库实例等信息">
@@ -284,7 +284,24 @@
                 
               
 
-              <time title="创建时间：2019-09-29 00:27:10" itemprop="dateCreated datePublished" datetime="2019-09-29T00:27:10+08:00">2019-09-29</time>
+              <time title="创建时间：2019-09-29 00:27:10 / 修改时间：00:55:01" itemprop="dateCreated datePublished" datetime="2019-09-29T00:27:10+08:00">2019-09-29</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/数据库/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a></span>
+
+                
+                
+              
             </span>
           
 
@@ -303,7 +320,7 @@
 
 <p>文件在oracle的安装目录下，例如：C:\oracle\product\10.2.0\db_1\network\ADMIN</p>
 <p>文件中每个数据库实例的配置格式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">本地实例名 =</span><br><span class="line">	(DESCRIPTION =</span><br><span class="line">    	(ADDRESS = (PROTOCOL = TCP)(HOST = 远程数据库IP地址)(PORT = 远程服务器端口号))</span><br><span class="line">    	(CONNECT_DATA =</span><br><span class="line">      		(SERVER = DEDICATED)</span><br><span class="line">      		(SERVICE_NAME = 远程数据库服务名)</span><br><span class="line">    	)</span><br><span class="line">  	)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">本地实例名 =</span><br><span class="line">	(DESCRIPTION =</span><br><span class="line">		(ADDRESS = (PROTOCOL = TCP)(HOST = 远程数据库IP地址)(PORT = 远程服务器端口号))</span><br><span class="line">		(CONNECT_DATA =</span><br><span class="line">			(SERVER = DEDICATED)</span><br><span class="line">			(SERVICE_NAME = 远程数据库服务名)</span><br><span class="line">		)</span><br><span class="line">  	)</span><br></pre></td></tr></table></figure>
 
 <p>上述中文部分需要修改：除“本地实例名”外，其他需要跟远程数据库实例信息保持一致，本地实例名就是方便自己识别数据库的一个名字，可以自定义。</p>
 <p>举例：</p>
@@ -459,7 +476,7 @@
             <a href="/tags/">
           
         
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
